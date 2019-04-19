@@ -7,9 +7,8 @@ For classification, Linear-SVC, an algorithm which establishes a hyperplane betw
 
 With an overall accuracy rate of 94%, and a type II (false negative) error rate of only 1.4%, the algorithm proves to be effective.
 
-==========================================================================================================================================
 
-#HOW TO GET STARTED
+# HOW TO GET STARTED
 
 1. Gather Data: Obtain images of your preffered disease, preferably over 50 images for the program to work well, and convert then to .png (using XnView)
 
@@ -28,6 +27,5 @@ From data_loader.py: size, img_slice, img_data
 
 Note: while playing around with values and configurations of the variables listed above may help, some diseases may require changes in the actual algorithm. While this may require more effort, it's definitely worth it!
 
-==========================================================================================================================================
-#License
+# License
 This project is licensed under the Apache 2.0 license
