@@ -1,5 +1,5 @@
 # DiagnoX
-DiagnoX is an open source project dedicated to diagnosing rare diseases. The original code is designed and geared towards Aortitis, a rare heart disease characterized by inflammation in the aorta. Whether you are searching for inspiration for a Science Fair project, a new hobby, or you just want to give back to the community, DiagnoX is a great way to start!
+DiagnoX is an open source project dedicated to diagnosing diseases. The original code is designed and geared towards Aortitis, a rare heart disease characterized by inflammation in the aorta. Whether you are searching for inspiration for a Science Fair project, a new hobby, or you just want to give back to the community, DiagnoX is a great way to start!
 
 To store and compare the CT scans, the python program uses HOG (histogram of oriented gradients) descriptors. They store a histogram of gradients (consisting of x and y derivatives which have direction and magnitude), which is more efficient than storing the entire image because the “useful” data consists of abrupt changes in the derivatives.
 
