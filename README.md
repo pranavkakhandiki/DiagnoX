@@ -18,7 +18,7 @@ python3 labelimg.py
 
 3. After storing the images in a directory, open that directory using label-img. Then, 'annotate' each image with the feature you want the program to notice/diagnose. In the case of aortitis, it is the thickened aortic wall. You will likely have to create a 'predifined classes' file before annotating the images. If anything is not working, referece the following link: https://pypi.org/project/labelImg/
 
-4. Run the program in PyCharm! - It's that easy, now all that's left is to tweak it to improve its accuracy for your desired disease.
+4. Run the program in PyCharm or your favorite python IDE! - It's that easy, now all that's left is to tweak it to improve its accuracy for the disease you wish to diagnose.
 
 What do I change? - Some variables to start tweaking are:
 From hog.py: orientations, pixelsPerCell, cellsPerBlock
